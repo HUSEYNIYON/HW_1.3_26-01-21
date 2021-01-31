@@ -147,18 +147,5 @@ namespace HW_1._3_26_01_2021
         }
 
     }
-    class FizRa
-    {
-        public int firstValue { get; set; }
-        public int secondValue { get; set; }
-        public FizRa(int fv, int sv)
-        {
-            firstValue = fv;
-            secondValue = sv;
-        }
-        public void extraWeight()
-        {
-            
-        }
-    }
+   
 }

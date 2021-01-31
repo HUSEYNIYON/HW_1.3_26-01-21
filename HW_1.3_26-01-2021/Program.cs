@@ -10,8 +10,8 @@ namespace HW_1._3_26_01_2021
             Console.WriteLine("Это программа преднозначано для школьников и а также для студентов!");
             Console.WriteLine(@"Выбирите один вариант из нижеперечисленных:
                            1. Математика --> 1
-                           2. Геометрия  --> 2
-                           3. Физр-ра   --> 3");
+                           2. Геометрия  --> 2 ");
+            Console.Write("Ваш выбор: ");
             var check = int.TryParse(Console.ReadLine(), out var myNumber);
             if (check)
             {
@@ -102,8 +102,8 @@ namespace HW_1._3_26_01_2021
                                 }
                             }
                             break;
-                        case 3:
-
+                        default:
+                            Console.WriteLine("Errorrr!");
                             break;
                     }
                 }
